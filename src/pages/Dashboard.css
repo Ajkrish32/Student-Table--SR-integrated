@@ -213,6 +213,7 @@
 }
 
 @media (max-width: 768px) {
+
   .staff-card,
   .student-card {
     flex-direction: column;
@@ -623,6 +624,7 @@
     padding-left: 17px;
   }
 }
+
 /* Skills Tags */
 .skills-container {
   display: flex;
@@ -685,4 +687,56 @@
   color: #667eea;
   font-weight: 600;
   margin-top: 4px;
+}
+
+@media (max-width: 480px) {
+  .dashboard-header {
+    padding: 15px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 20px;
+  }
+
+  .user-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .btn-logout {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dashboard-content {
+    padding: 15px;
+  }
+
+  .dashboard-sections {
+    padding: 15px;
+  }
+
+  .modal-content {
+    padding: 20px;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+
+  .staff-actions,
+  .student-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .staff-actions button,
+  .student-actions button {
+    width: 100%;
+  }
 }
